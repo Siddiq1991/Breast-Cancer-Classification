@@ -12,7 +12,7 @@ The very first and commonly longest step is the data cleaning or data preprocess
 ### 3.2. Model Pipeline
 A feedforward neural network is constructed based on our main problem which is classification problem.. The structure of the model is fairly simple. Figure below shows the structure of the model.
 
-![Model Structure](img/model.png)
+![Model Structure](img/model.PNG)
 
 The model is trained with a batch size of 32 and for 100 epochs. Early stopping is applied in this training. The training stops at epoch 19, with a training accuracy of 99% and validation accuracy of 99.71%. The two figures below show the graph of the training process.
 
